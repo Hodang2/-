@@ -1,0 +1,40 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -2px;
+}
+
+.header_title{
+  font-size: 30pt;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 20px;  
+}
+
+.menu_tab {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+  font-size: 20pt;
+  background: linear-gradient(90deg, #afdceb, #528d97);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: grayscale(100%);
+  transition: filter 800ms;
+}
+
+a:hover {
+  filter: grayscale(0%)
+}
+
+.text{
+list-style: none;
+}
